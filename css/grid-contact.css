@@ -1,0 +1,42 @@
+.grid-contact {
+    display: grid;
+    grid-template-columns: 65px 65% 30% ;
+    grid-template-rows: 100vh ;
+}
+
+.grid-contact .infos {
+    gap: 80px;
+}
+
+
+.contact-text .container{
+    padding: 0 0 0 120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contact-text .container a{
+    max-width: 80%;
+    color: #FFF1DA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-decoration: underline 0.5px;
+    text-underline-offset: 5px;
+    transition: 0.6s;
+}
+.contact-text .container a:hover{
+    text-underline-offset: -15px;
+}
+.contact-text p{
+    max-width: 80%;
+    color:#FFF1DA ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}
+
+.contact-text br {
+    margin-bottom: -1em;
+}

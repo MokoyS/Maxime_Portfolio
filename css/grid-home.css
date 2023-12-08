@@ -1,0 +1,127 @@
+.grid-home {
+    display: grid;
+    grid-template-columns: 65px 35% 60% ;
+    grid-template-rows: 100vh ;
+}
+
+.home-decoration {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.home-text {
+    grid-column: 2;
+    grid-row: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;  
+
+}
+
+.home-text img {
+    height: 20px;
+    animation: 1s infinite opacity;
+}
+
+.home-text a {
+    color: white;
+    transition: 0.2s;
+}
+
+.home-text a:hover {
+    font-size: 17px;
+}
+
+.home-text .container h2 {
+
+margin: 0 10px;
+
+}
+
+
+.home-text .text1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.home-text .text2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.home-text .text3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.nav-text {
+    grid-column: 3;
+    grid-row: 1;
+
+}
+.nav-text .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+@keyframes opacity {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+.home-decoration {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 548px;
+}
+
+.home-decoration p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 10px;
+    transform: rotate(90deg) translateX(-50%);
+
+
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.traitt {
+    display: flex;
+    justify-content: center;
+}
+
+.home-decoration .trait {
+    display: block;
+    height:100px;
+    background-color: white;
+    width: 1px;
+}
